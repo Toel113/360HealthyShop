@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .text-box {
+    background-image: url('/image/1boxset.jpg'); /* ใส่ URL ของรูปภาพที่คุณต้องการ */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    height: 200px;
+    color: white; /* สีของข้อความ */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+        .button1{
+            background-image: url('/image/1boxset.jpg');
+        background-size: cover; /* เพื่อให้รูปภาพขนาดเต็มของปุ่ม */
+        background-position: center; /* ตำแหน่งของรูปภาพภายในปุ่ม */
+        height: 200px; /* ปรับความสูงของปุ่ม */
+        }
+        .buttoncoupo {
+            background-color: plum;
+            width: 5px; /* ขนาดของไอคอน */
+            height: 10px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-image: url('https://static.wixstatic.com/media/77700b_23546b80fe9d46c8a1aea3a306b53d8a~mv2.jpg/v1/fill/w_1470,h_500,al_t,q_85,usm_0.66_1.00_0.01,enc_auto/77700b_23546b80fe9d46c8a1aea3a306b53d8a~mv2.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white; /* เพื่อให้ข้อความใน Header มองเห็นได้ชัดเจนบนรูปภาพ */
+            padding: 100px;
+            text-align: center;
+        }
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .custom-right {
+    margin-left: auto; /* ดันคอลัมน์ไปทางขวา */
+}
+        button {
+            margin-top: 30px;
+            margin: 10px;
+            padding: 60px 240px;
+            font-size: 16px;
+        }
+        footer {
+            padding: 20px;
+            background-color: #f1f1f1;
+            text-align: center;
+        }
+        footer p {
+            margin: 0 0 10px;
+        }
+        footer div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        footer div img {
+            width: 40px; /* ขนาดของไอคอน */
+            height: 40px;
+            margin: 0 10px; /* ระยะห่างระหว่างไอคอน */
+        }
+        main div img {
+            width: 200px; /* ขนาดของไอคอน */
+            display: block;
+            margin: 0 auto; /* จัดกึ่งกลางในแนวนอน */
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- <h1>ส่วนหัวของหน้า</h1> -->
+    </header>
+    <main>
+        <div class="container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 mx-auto text-box">
+                        <div class="row" style="margin-top: 100px;">
+                            <div class="col-md-3" style="background-color: aqua";>
+                                <p>drogjoi555</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-row">
+                <div class="col-md-8 mx-auto">
+                    <h2></h2>
+                    <p>1.โปรโมชั่นเดือนเกิด ลด 30% และรักษา Relaxing US ฟรี 1 ครั้ง</p>
+                    <!-- <button class="buttoncoupo " onclick="location.href='CodeP1.html'">Pick Coupong</button> -->
+                </div>
+            </div>
+            <div ><a href="https://line.me/R/ti/p/@buo6340m" target="_blank">
+                <img src="/image/buttonCoupong.png" alt="Line">
+            </a></div>
+            
+            
+                
+            </div>
+            
+        </div>
+    </main>
+    <footer>
+        <p>ธธธ</p>
+        <div>
+            <a href="https://line.me/R/ti/p/@buo6340m" target="_blank">
+                <img src="/image/line.png" alt="Line">
+            </a>
+            <a href="https://www.facebook.com/360healthy789shop" target="_blank">
+                <img src="/image/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/360.healthyshop/" target="_blank">
+                <img src="/image/instagram.png" alt="Instagram">
+            </a>
+            <a href="https://www.youtube.com/@360healthyshop" target="_blank">
+                <img src="/image/youtube.png" alt="YouTube">
+            </a>
+            <a href="https://www.tiktok.com/@360healthyshop?is_from_webapp=1&sender_device=pc" target="_blank">
+                <img src="/image/tiktok.png" alt="TikTok">
+            </a>
+        </div>
+        <div>
+            Tel : 0990439888 l 0989232424
+        </div>
+        <div>
+            <a href="http://www.360healthyshop.com" target="_blank">www.360healthyshop.com</a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
