@@ -6,72 +6,7 @@
     <title>Simple HTML Page</title>
     <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .button1{
-            background-image: url('/imgsCoupong/10.jpg');
-        background-size: cover; /* เพื่อให้รูปภาพขนาดเต็มของปุ่ม */
-        background-position: center; /* ตำแหน่งของรูปภาพภายในปุ่ม */
-        height: 200px; /* ปรับความสูงของปุ่ม */
-        }
-        .buttoncoupo {
-            background-color: plum;
-            width: 5px; /* ขนาดของไอคอน */
-            height: 10px;
-        }
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-        header {
-            background-image: url('https://static.wixstatic.com/media/77700b_23546b80fe9d46c8a1aea3a306b53d8a~mv2.jpg/v1/fill/w_1470,h_500,al_t,q_85,usm_0.66_1.00_0.01,enc_auto/77700b_23546b80fe9d46c8a1aea3a306b53d8a~mv2.jpg');
-            background-size: cover;
-            background-position: center;
-            color: white; /* เพื่อให้ข้อความใน Header มองเห็นได้ชัดเจนบนรูปภาพ */
-            padding: 100px;
-            text-align: center;
-        }
-        main {
-            flex: 1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-        button {
-            margin-top: 30px;
-            margin: 10px;
-            padding: 60px 240px;
-            font-size: 16px;
-        }
-        footer {
-            padding: 20px;
-            background-color: #f1f1f1;
-            text-align: center;
-        }
-        footer p {
-            margin: 0 0 10px;
-        }
-        footer div {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        footer div img {
-            width: 40px; /* ขนาดของไอคอน */
-            height: 40px;
-            margin: 0 10px; /* ระยะห่างระหว่างไอคอน */
-        }
-        main div img {
-            width: 200px; /* ขนาดของไอคอน */
-            display: block;
-            margin: 0 auto; /* จัดกึ่งกลางในแนวนอน */
-            margin-top: 20px;
-        }
-    </style>
+    <link href="page.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -81,7 +16,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 mx-auto">
-                    <button class="button1 btn-block" ></button>
+                    <img class="img-fluid" src="/imgsCoupong/10.jpg" ></img>
                 </div>
             </div>
             <div class="row text-row">
@@ -144,7 +79,7 @@
             .then(data => {
                 console.log(data);
                 // Redirect to page1.html and pass the code as a parameter
-                window.location.href = "/Code/CodeCupong3.html?code=" + data.data.code;
+                window.location.href = "/Code/CodeCupong10.html?code=" + data.data.code;
             })
             .catch(error => {
                 console.error('มีข้อผิดพลาด: ', error);

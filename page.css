@@ -1,0 +1,80 @@
+.button1{
+    background-image: url('/imgsCoupong/01.jpg');
+background-size: cover; /* เพื่อให้รูปภาพขนาดเต็มของปุ่ม */
+background-position: center; /* ตำแหน่งของรูปภาพภายในปุ่ม */
+height: 200px; /* ปรับความสูงของปุ่ม */
+}
+.buttoncoupo {
+    background-color: plum;
+    width: 5px; /* ขนาดของไอคอน */
+    height: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    background-image: url('/image/head.png');
+    background-size: cover;
+    background-position: center;
+    color: white; /* เพื่อให้ข้อความใน Header มองเห็นได้ชัดเจนบนรูปภาพ */
+    padding: 10%;
+    text-align: center;
+}
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main div div div p{
+    margin-top: 4%;
+    box-shadow: 0 3px 5px rgba(150, 27, 78, 0.7);
+    border-radius: 0.3rem;
+    padding: 5%;
+}
+button {
+    margin-top: 30px;
+    margin: 10px;
+    padding: 60px 240px;
+    font-size: 16px;
+}
+.img-fluid{
+    width: 100%;
+    height:auto;
+    margin-top: 30px;
+    box-shadow: 0 7px 10px rgba(134, 93, 93, 0.7);
+    border-radius: 0.80rem;
+}
+footer {
+    padding: 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+    box-shadow: 0 7px 10px rgba(143, 63, 63, 0.7);
+    border-radius: 0.80rem;
+    margin-top: 60px;
+}
+footer p {
+    margin: 0 0 10px;
+}
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer div img {
+    width: 40px; /* ขนาดของไอคอน */
+    height: 40px;
+    margin: 0 10px; /* ระยะห่างระหว่างไอคอน */
+}
+main div img {
+    width: 200px; /* ขนาดของไอคอน */
+    display: block;
+    margin: 0 auto; /* จัดกึ่งกลางในแนวนอน */
+    margin-top: 20px;
+}

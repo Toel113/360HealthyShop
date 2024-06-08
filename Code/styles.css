@@ -1,0 +1,82 @@
+.inner-box {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fdf8fd;
+    padding: 1%;
+    border: 1px solid #dad5d5;
+    border-radius: 4px;
+    margin-right: 20%;
+    margin-bottom: 6%;
+}
+.buttoncoupo {
+    background-color: plum;
+    width: 5px;
+    height: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    background-image: url('/image/head.png');
+    background-size: cover;
+    background-position: center;
+    color: white; /* เพื่อให้ข้อความใน Header มองเห็นได้ชัดเจนบนรูปภาพ */
+    padding: 10%;
+    text-align: center;
+}
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button {
+    margin-top: 30px;
+    margin: 10px;
+    padding: 60px 240px;
+    font-size: 16px;
+}
+.img-fluid {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    box-shadow: 0 5px 15px rgba(134, 93, 93, 0.7);
+    border-radius: 0.50rem;
+}
+footer {
+    padding: 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+footer p {
+    margin: 0 0 10px;
+}
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer div img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+main div img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.container1 {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
